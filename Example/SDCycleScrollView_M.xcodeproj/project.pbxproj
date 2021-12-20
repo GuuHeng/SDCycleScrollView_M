@@ -41,7 +41,7 @@
 		36F630EF69AF91AADCD4036B /* Pods_SDCycleScrollView_M_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDCycleScrollView_M_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40C1E2AC3BA43EE66FAC674A /* Pods_SDCycleScrollView_M_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDCycleScrollView_M_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44256B78435F55ACC2D868A9 /* Pods-SDCycleScrollView_M_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCycleScrollView_M_Tests.release.xcconfig"; path = "Target Support Files/Pods-SDCycleScrollView_M_Tests/Pods-SDCycleScrollView_M_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4DEB9547BCA0CFD138816A06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4DEB9547BCA0CFD138816A06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SDCycleScrollView_M_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDCycleScrollView_M_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,8 +65,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86F391A6D5CDEDC17D0FD0BD /* Pods-SDCycleScrollView_M_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCycleScrollView_M_Example.debug.xcconfig"; path = "Target Support Files/Pods-SDCycleScrollView_M_Example/Pods-SDCycleScrollView_M_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A47520EEC9AD0F3167765F33 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F8A761AC0237138109E857F9 /* SDCycleScrollView_M.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SDCycleScrollView_M.podspec; path = ../SDCycleScrollView_M.podspec; sourceTree = "<group>"; };
+		A47520EEC9AD0F3167765F33 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F8A761AC0237138109E857F9 /* SDCycleScrollView_M.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SDCycleScrollView_M.podspec; path = ../SDCycleScrollView_M.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				14DDF23BE209C599B4F87029 /* Pods-SDCycleScrollView_M_Tests.debug.xcconfig */,
 				44256B78435F55ACC2D868A9 /* Pods-SDCycleScrollView_M_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
